@@ -9,6 +9,7 @@ git log						#Mostras os commits feitos
 git remote add origin https://github.com/ericsales/LinuxGit.git		#Esse comando informa o repositorio
 git push --set-upstream origin master ou git push -u origin master	#Esse comando e usado apenas na primeira vez que é feito o push, para indicar que esta adicionando na branch master
 git push								#Comando push
+git diff HEAD~1								#Verifica a diferença no ultimo commit
 
 ***Estados dos arquivos***
  - Não monitorado (untracked)	# Quando o arquivo é criado ele é um arquivo untracked
