@@ -1,11 +1,11 @@
 git init					#inicia os aquivos Git
 git add nome_do_aquivo ou git add .		#Adiciona todos os aquivos git
-git commite -m "Comite a ser feito"		#Inicia o commite
-git status					#Mostras os arquivos monitorados que foram alterados ou adicionas e não foram comitados ainda
-git log						#Mostras os commites feitos
+git commit -m "Commit a ser feito"		#Inicia o commit
+git status					#Mostras os arquivos monitorados que foram alterados ou adicionas e não foram commitados ainda
+git log						#Mostras os commits feitos
 
 #Apos ter feito isso crie um repositorio no GitHub
 
 git remote add origin https://github.com/ericsales/LinuxGit.git		#Esse comando informa o repositorio
-git push --set-upstream origin master ou git push -u origin master	#Esse comando e usado apenas na primeira vez que é feito o push e apenas para indicar que esta adionado na master
+git push --set-upstream origin master ou git push -u origin master	#Esse comando e usado apenas na primeira vez que é feito o push, para indicar que esta adicionando na branch master
 git push								#Comando push
