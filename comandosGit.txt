@@ -14,6 +14,9 @@ git pull        							#Atualiza seu repositorio local
 
 git diff HEAD~1								#Verifica a diferença no ultimo commit
 
+git checkout <commit> <file>						#Esse comoando serve para verificar versões antigas do seu codigo
+git checkout master							#Retorna para o ultimo commit
+
 ***Estados dos arquivos***
  - Não monitorado (untracked)	# Quando o arquivo é criado ele é um arquivo untracked
  - Modificado (modified)	# Quando o arquivo já está monitorado mais foi modificado
