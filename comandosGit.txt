@@ -22,3 +22,22 @@ git checkout master							#Retorna para o ultimo commit
  - Modificado (modified)	#Quando o arquivo já está monitorado mais foi modificado
  - Preparado (staged)		#Quando e usado o git add ele passa a ser um arquivo preparado
  - Consolidado (commited)	#É quando o arquivo esta registrado é preparado
+
+----------------------------------------------------------------+
+…or create a new repository on the command line			|
+								|
+echo "# snack" >> README.md					|
+git init							|
+git add README.md						|
+git commit -m "first commit"					|
+git branch -M master						|
+git remote add origin https://github.com/ericsales/snack.git	|
+git push -u origin master					|
+                						|
+								|
+…or push an existing repository from the command line		|
+								|
+git remote add origin https://github.com/ericsales/snack.git	|
+git branch -M master						|
+git push -u origin master					|
+----------------------------------------------------------------+
